@@ -1,5 +1,31 @@
 # while_loops_as_brain_candy
-A beginner's study of how to understand, construct, and implement a basic while loop in python.
+#A beginner's study of how to understand, construct, and implement a basic while loop in python.
 
-This file is intended for novices, beginners, and n00bs who are trying to understand Python, while loops, and give an idea of what to look for and consider when building a basic while loop.
-This is especially important when trying to follow instructions for a lab, only the instructions are purposely vague. 
+#This file is intended for novices, beginners, and n00bs who are trying to understand Python, while loops, and give an idea of what to look for and consider when building a basic while loop.
+#This is especially important when trying to follow instructions for a lab, only the instructions are purposely vague. 
+
+# NOTE: The term "defining" should be saved for defining a function; use␣
+,→"creating" in regards to variables.
+# Start with CREATING the requested variable and then assigning the starting␣
+,→value to it.
+candy_purchased = 0
+# Once the variable is defined, next create the while loop as an iterative␣
+,→statement.
+# For the While statement, decide which logical operator is needed (+,-,/
+,→,%,*,<,>,>=,<=,+=,-=).
+# The logical operator will need to be specified along with the end value␣
+,→needed to resolve the loop.
+# Specify the number of iterations needed until the loop is resolved; usually␣
+,→it is the end value but not always.
+# Start with creating the while statement and the relation to the variable.
+# Then indent in the next line to define the print function.
+# In the Print statement, consider what should be shown as a descriptor,
+# then the logical operator that joins the variable to the descriptor, and␣
+,→specify the type of the variable (str, int, float),
+# then cap off the line with two parentheses to end the print statement.
+while candy_purchased <= 5:
+print('Candy purchased: ' + str(candy_purchased))
+# Now, specify the increments for the candy_purchased counter, using the␣
+,→appropriate logical operator for the loop.
+candy_purchased += 1
+print("You have enough candy. For now...")
